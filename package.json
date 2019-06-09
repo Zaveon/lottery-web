@@ -127,11 +127,7 @@
   },
   "babel": {
     "presets": [
-      "react-app",
-      "@babel/preset-env",
-      {
-        "useBuiltIns": "entry"
-      }
+      "react-app"
     ],
     "plugins": [
       [
