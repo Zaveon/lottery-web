@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import { version, Button } from "antd";
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +20,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <div>Current antd version: {version}</div>
+      <div style={{ marginTop: "16px" }}>
+        <Button type="primary">button</Button>
+      </div>
     </div>
   );
 }
